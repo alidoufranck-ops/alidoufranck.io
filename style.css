@@ -1,22 +1,65 @@
-*{ margin: 0;padding: 0;}
+/* Style global */
 body {
-    background-image: url("Design\ sans\ titre.png"); /* chemin de ton image */
-    background-size: cover; /* l’image couvre toute la page */
-   
-    background-repeat: no-repeat; /* empêche la répétition de l’image */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+h2 {
+  margin: 5px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Media Queries pour Responsive */
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
   }
-h1{ margin-top: 160px;margin-left: 500px;}
-h2{ margin-left: 500px; margin-top: 10px;}
-.EXPERIENCES{ margin-top: 7px; margin-left: 38%;}
-.papa{ margin-left: 38%;margin-top: 5px;}
-.stage{ margin-left: 38%; margin-top: 10px;}
-h3{ margin-left: 50%;}
-  .communication{ margin-left: 50%;}
-  h4{ margin-left: 38%; margin-top: 5px;}
-  .asake{ margin-left: 38%;}
-  .centre{ margin-left: 55%;margin-top: 9px;}
-  .mama{ margin: 10px; margin-top: -250px;}
-  .profil{ width: 200px; margin: 9px;}
-  .contact{ margin-top: -35px;margin-left: 22%;}
-  .email{ margin-left: 48%;}
- 
+  h1 {
+    font-size: 22px;
+  }
+  section {
+    padding: 10px;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  section {
+    font-size: 14px;
+  }
+}
+
